@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+
+}
+table {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(27, 26, 26);
+    color: rgb(224, 182, 123);
+    
+}
+td {
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(3, 3, 3);
+}
+td:hover{   
+    background-color: rgb(97, 97, 95);
+    cursor: pointer;
+}
+#result_Area {
+    height: 30vh;
+    background-color: rgb(53, 46, 46);
+    color: whitesmoke;
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+#result:hover{
+    background-color: rgb(13, 154, 236);
+    cursor: pointer;
+}
+#result{
+    background-color: rgb(45, 37, 207);
+}
+.highlight{
+    background-color: rgb(26, 25, 25);
+    font-size: 35px;
+}
+#delete_All{
+    color: rgb(250, 40, 25);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+    <div id="result_Area">
+        
+    </div>
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td id="delete_All" onclick="delete_All()">C</td>
+            <td onclick="delete_Last()">DEL</td>
+        </tr>
+        <tr>
+            <td onclick="addOperation(7)">7</td>
+            <td onclick="addOperation(8)">8</td>
+            <td onclick="addOperation(9)">9</td>
+            <td class="highlight" onclick="addOperation(' ÷ ')">÷</td>
+        </tr>
+        <tr>
+            <td onclick="addOperation(4)">4</td>
+            <td onclick="addOperation(5)">5</td>
+            <td onclick="addOperation(6)">6</td>
+            <td class="highlight" onclick="addOperation(' x ')">x</td>
+        </tr>
+        <tr>
+            <td onclick="addOperation(1)">1</td>
+            <td onclick="addOperation(2)">2</td>
+            <td onclick="addOperation(3)">3</td>
+            <td class="highlight" onclick="addOperation(' + ')">+</td>
+        </tr>
+        <tr>
+            <td onclick="addOperation('.')">,</td>
+            <td onclick="addOperation(0)">0</td>
+            <td id="result" onclick="calculate_Result()">=</td>
+            <td class="highlight" onclick="addOperation(' - ')">-</td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
+
+    <script src="function.js"></script>
+</body>
+</html>
